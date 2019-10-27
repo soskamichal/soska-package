@@ -1,10 +1,11 @@
 {
   "name": "soska-package",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "npm package for wawjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --color test/test.js"
+    "test": "mocha --color test/test.js",
+    "index": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
     "empty-package"
   ],
   "author": "Michal Soska",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "juromecir-package": "git+https://github.com/JuroMecir/JuroMecir-package.git",
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
