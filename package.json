@@ -1,0 +1,19 @@
+{
+  "name": "soska-package",
+  "version": "1.0.0",
+  "description": "npm package for wawjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --color test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/soskamichal/soska-package"
+  },
+  "keywords": [
+    "npm-package",
+    "empty-package"
+  ],
+  "author": "Michal Soska",
+  "license": "ISC"
+}
