@@ -18,8 +18,7 @@
   "author": "Michal Soska",
   "license": "ISC",
   "dependencies": {
-    "juromecir-package": "git+https://github.com/JuroMecir/JuroMecir-package.git",
-    "mocha": "^6.2.2"
+    "juromecir-package": "git+https://github.com/JuroMecir/JuroMecir-package.git"
   },
   "devDependencies": {
     "mocha": "^6.2.2"
